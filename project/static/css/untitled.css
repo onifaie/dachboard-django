@@ -1,0 +1,64 @@
+:root {
+  direction: rtl;
+  *: rtl;
+}
+
+:root {
+}
+
+#accordionSidebar {
+  margin-right: 2px;
+  padding-right: 0px;
+  float: right;
+}
+
+.sidebar-dark .nav-item .nav-link.active, .sidebar-dark .nav-item .nav-link.active i, .sidebar-dark .nav-item .nav-link:active, .sidebar-dark .nav-item .nav-link:active i, .sidebar-dark .nav-item .nav-link:focus, .sidebar-dark .nav-item .nav-link:focus i, .sidebar-dark .nav-item .nav-link:hover, .sidebar-dark .nav-item .nav-link:hover i {
+  /*margin-right: 0px;*/
+}
+
+#wrapper {
+  padding-right: 2px;
+  float: right;
+}
+
+#accordionSidebar {
+}
+
+.sidebar-dark .nav-item .nav-link i {
+  margin: 12px;
+  font-size: 20px;
+  color: white;
+}
+
+.sidebar .nav-item .nav-link span {
+  font-size: 14px;
+  color: white;
+}
+
+#dataTable {
+  direction: rtl;
+}
+
+:root {
+  direction: rtl;
+}
+
+.card-body {
+  direction: rtl;
+}
+
+.row.align-items-center.no-gutters {
+  direction: rtl;
+}
+
+.navbar.navbar-light.navbar-expand.bg-white.shadow.mb-4.topbar.static-top {
+}
+
+:root {
+  direction: rtl;
+  font-family: 'Cairo';
+}
+
+#page-top {
+}
+

@@ -1,0 +1,50 @@
+{% extends 'base.html'%}
+{%block content %}
+
+<div class="container">
+    <p style ="text-align: center;">اذا لم تكن مسجل في الموقع نامل التسجيل فيه من هنا </p>
+    <h5 style="text-align: center;"><a style="text-align: center;color: blue;font-size: 10px;"href="{%url 'singup'%}">التسجيل فيالموقع</a></h5>
+    <p data-aos="zoom-out" data-aos-duration="650" style="text-align: center;color: rgb(15, 14, 14);font-size: 34px;">شاشة تسجيل الدخول المعتمد&nbsp;</p>
+    <div class="row justify-content-center">
+        <div class="col-md-9 col-lg-12 col-xl-10">
+            <div class="card shadow-lg o-hidden border-0 my-5">
+                <div class="card-body p-0">
+                    <div class="row">
+                        <div class="col-lg-6" style="border-radius: 4px;border-style: solid;border-color: rgb(91,153,13);">
+                            <div class="tada animated p-5">
+                                <div class="text-center">
+                                    <h4 class="text-dark mb-4">شاشة تسجيل الدخول&nbsp;</h4>
+                                </div>
+                                <form class="user">
+                                    <div class="form-group"><input class="form-control form-control-user" type="email" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="تسجيل البريد الالكتروني " name="email"></div>
+                                    <div class="form-group"><input class="form-control form-control-user" type="password" id="exampleInputPassword" placeholder="تسجيل كلمة المرور مع مراعاة اتجاة الكتابة " name="password"></div>
+                                    <div class="form-group">
+                                        <div class="custom-control custom-checkbox small">
+                                            <div class="form-check"><input class="form-check-input custom-control-input" type="checkbox" id="formCheck-1"><label class="form-check-label custom-control-label" for="formCheck-1">تذكرني&nbsp;</label></div>
+                                        </div>
+                                    </div><button class="btn btn-primary btn-block text-white btn-user" type="submit" style="color: rgb(83,138,12);background: rgb(84,141,12);">تسجيل الدخول&nbsp;</button>
+                                    <hr><a class="btn btn-primary btn-block text-white btn-google btn-user" role="button"><i class="fab fa-google"></i>&nbsp; &nbsp;التسجيل من خلال موقع قوقل&nbsp;</a><a class="btn btn-primary btn-block text-white btn-facebook btn-user" role="button"><i class="fab fa-facebook-f"></i>&nbsp; التسجيل من خلال موقع الفيس بوك&nbsp;</a>
+                                    <hr>
+                                </form>
+                                <div class="text-center"><a class="small" href="forgot-password.html">نسيت كلمة المرور&nbsp;</a></div>
+                                <div class="text-center"><a class="small" href="register.html">إنشاء حساب جديد&nbsp;</a></div><a class="small" href="register.html" style="font-size: 13px;margin: 45px;padding: 21px;margin-top: 66px;">الدخول من خلال النفاذ الموحد&nbsp; الوطني&nbsp;</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-none d-lg-flex">
+                            <div class="row">
+                                <div class="col"></div>
+                                <div class="col">
+                                    <div class="flex-grow-1 rubberBand animated bg-login-image" style="background: url(&quot;static/img/dogs/loocked.jpg&quot;) center / contain no-repeat;width: 400px;height: 400px;border-radius: 17px;border-color: var(--danger);"></div>
+                                </div>
+                                <div class="col"><a class="btn btn-primary btn-block text-white btn-user" role="button" data-bss-hover-animate="tada" style="color: rgb(83,138,12);background: rgb(84,141,12);" href="base.html">العودة للصفحة الرئيسية&nbsp;</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><a class="btn btn-primary btn-block text-white btn-user" role="button" data-bss-hover-animate="tada" style="color: rgb(83,138,12);background: rgb(84,141,12);" href="base.html">العودة للصفحة الرئيسية&nbsp;</a>
+        </div>
+    </div>
+</div>
+{%endblock%}
+
+<h1>this login pages .... </h1>

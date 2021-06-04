@@ -1,0 +1,16 @@
+{%extends 'base.html' %}
+{% block content %}
+{% for post in data %}
+    <article class="post">
+        <time class="date">
+            {{ post.cuentryname }}
+        </time>
+        <p>{{ post.counteryseles }}</p>
+    </article>
+{% endfor %}
+<h1>obeid22223</h1>
+{% endblock %}
+
+{{context.cuentryname}}
+{{data}}
+
